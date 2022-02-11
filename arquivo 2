@@ -1,0 +1,36 @@
+programa {
+	funcao inicio() {
+		cadeia mnome[50]
+		real mmat[50], mhis[50], mpot[50]
+		inteiro mindice
+		para (mindice=0;mindice<5;mindice++)
+	{
+	        escreva("digite o nome do aluno: ")
+	        leia(mnome[mindice])
+	        escreva("digite a nota em mat: ")
+	        leia(mmat[mindice])
+	        escreva("digite a nota em his: ")
+	        leia(mhis[mindice])
+	        escreva("digite a nota em pot: ")
+	        leia(mpot[mindice])
+	}
+	para (mindice = 0; mindice <5; mindice++)
+	{
+	    escreva ("\n o aluno", mnome[mindice])
+	    se (mmat[mindice] >= 60)
+	    escreva ("\n aluno aprovado")
+	        senao
+	   escreva ("\n aluno reprovado")
+	   escreva ("\n o aluno", mnome[mindice])
+	    se (mhis[mindice] >= 60)
+	    escreva ("\n aluno aprovado")
+	        senao
+	   escreva ("\n aluno reprovado")
+	   escreva ("\n o aluno", mnome[mindice])
+	    se (mpot[mindice] >= 60)
+	    escreva ("\n aluno aprovado")
+	        senao
+	   escreva ("\n aluno reprovado")
+	}
+}
+}
